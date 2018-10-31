@@ -1,0 +1,69 @@
+.slide-background {
+    // background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.cover h1
+{
+    margin-top: -150px;
+}
+
+.reveal h5
+{
+    text-transform: none;
+    font-size: 0.5em;
+    font-weight: normal;
+    font-style: italic;
+}
+
+p.joke, p span.joke
+{
+    text-align: right;
+    font-style: italic;
+    font-size: 0.7em;
+}
+
+section.warning-verbose pre code,
+code.warning-verbose  /* THIS IS A REAL WARNING */
+{
+    font-size: smaller;
+}
+
+.warning-verbose pre code
+{
+     max-height: 600px;
+}
+
+code.lang-text
+{
+    font-size: 28pt;
+    line-height: 1.1em;
+    margin-top: 5pt;
+}
+
+.narrow h3
+{
+font-size: 85%;
+}
+
+.reveal pre
+{
+width: 90%;
+}
+
+.reveal code
+{
+/*    width: 80%; */
+}
+
+.narrow blockquote
+{
+width: 95%;
+/* margin: 10px auto; */
+/* padding: 10px; */
+font-size: 70%;
+}
+
+p.always-hidden, pre.always-hidden {
+    visibility: hidden;
+}
+
